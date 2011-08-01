@@ -1,0 +1,8 @@
+<p>
+  <%#= t('.copyright', :year => Time.now.year,
+                      :site_name => RefinerySetting.find_or_set(:site_name, "Company Name")) %>
+  <%= t('.copyright', :year => Time.now.year,
+                      :site_name => "Indian Performing Arts Promotions, Inc") %>
+                      
+  <p>If you are looking for old odissi site, then <%= link_to "cick http://odissi.us here", "/cms"%>.</p>
+</p>

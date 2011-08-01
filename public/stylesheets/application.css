@@ -1,0 +1,70 @@
+/*
+  Override default refinery application CSS below.
+  Formatting applies to all frontend.
+*/
+.menu li{
+  margin:0px;
+}
+
+div.home p{
+  
+  margin:0px;
+}
+div.home div#english, div.home div#hindi{
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+div.home div#hindi{
+  margin-top:20px;
+}
+
+div.home div#english{
+  margin-top:20px;
+}
+
+h1#logo{
+	background:no-repeat url(/images/logo.jpg);
+	font-size:20px;
+	height:50px;
+	padding-top:28px;
+	
+}
+
+h1#logo a{
+	padding-left:100px;
+}
+
+html{
+	font-family: 'Muli', sans-serif;
+}
+
+br {
+	margin-bottom:1em;
+}
+
+footer p{
+	font-size:0.75em;
+	color:gray;
+}
+
+section#body_content * table{
+	border:1px gray solid;
+	padding:1px;
+	width:100%;
+}
+
+section#body_content * td{
+	border:0.5px gray solid;
+	padding:5px;
+}
+
+section#body_content * tr.heading{
+	font-weight:900;
+}
+
+
+section#body_content * table#schedule{
+	font-size:.75em;
+}
